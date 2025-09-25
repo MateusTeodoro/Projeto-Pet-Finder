@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+html,
+body {
+    height: 100%;
+    /* ocupa a altura total da tela */
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #76c4df;
+    font-family: "Dancing Script", cursive;
+}
+
+body {
+    background-color: #0a1942;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.Título {
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 60px;
+    padding: 60px 80px 20px 80px;
+}
+
+.Meio {
+    display: block;
+}
+
+.Cachorro_img {
+    display: inline;
+    width: 33%;
+    padding: 80px;
+}
+
+.Botões {
+    padding-left: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.Botões a {
+    display: block;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    min-width: 280px;
+}
+
+.Botões a:hover {
+    background: rgb(228, 188, 114);
+}
+
+.Rodapé {
+    background-color: #76c4df;
+    width: 100%;
+}
+
+.Rodapé img {
+    width: 100%;
+}
