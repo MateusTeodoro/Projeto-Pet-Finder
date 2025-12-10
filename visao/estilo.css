@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #76c4df;
+    font-family: "Dancing Script", cursive;
+}
+
+body {
+    background-color: #0a1942;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+}
+
+.Título {
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+}
+
+.Meio {
+    background-color: #0a1942;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.Botões {
+    display: flex;          /* Alinhar os botões em coluna */
+    flex-direction: column; /* Coloca um botão embaixo do outro */
+    align-items: center;    /* Centraliza os botões */
+}
+
+.Botões a {
+    display: block;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    min-width: 280px;
+}
+
+.Botões a:hover {
+    background: rgb(228, 188, 114);
+}
+
+.Rodapé {
+    background-color: #76c4df;
+    width: 100%;
+}
+
+.Rodapé img {
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.botao-voltar {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #c94b4b;
+    border-color: #c94b4b;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
